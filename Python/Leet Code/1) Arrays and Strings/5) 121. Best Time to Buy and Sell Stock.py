@@ -44,3 +44,10 @@ def maxprofit(prices):
         R += 1
     return max_profit
 
+prices = [7,1,5,3,6,4]
+prices2 = [1,2,3,4,5]
+prices3 = [7,6,4,3,1]
+
+print(maxProfit(prices))
+print(maxProfit(prices2))
+print(maxProfit(prices3))
